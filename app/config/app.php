@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost',
+	'url' => 'http://www.testblog.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -121,9 +121,11 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+	    'Way\Generators\GeneratorsServiceProvider',
+	    'Cartalyst\Sentry\SentryServiceProvider',
 
 	),
-
+    'Sentry' => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
 	/*
 	|--------------------------------------------------------------------------
 	| Service Provider Manifest
