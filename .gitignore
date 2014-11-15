@@ -1,4 +1,5 @@
 /.project
 /.settings
 /.buildpath
+/app/config/database.php
 .DS_Store
